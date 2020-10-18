@@ -239,9 +239,7 @@ if __name__ == "__main__":
     if PRINT_OUT_DF.empty:
         print(
             text_color(
-                "There is no country better than {}.".format(
-                    PLACE2LIVE.user_country_name
-                ),
+                f"There is no country better than {PLACE2LIVE.user_country_name}.",
                 text_type.ANSWER,
             ),
         )
